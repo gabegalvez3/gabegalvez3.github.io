@@ -1,0 +1,15 @@
+/* Body styles and styles that apply to more than one section */
+
+body {
+    background: #e3e3e4;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    img.hero-image-gabe {
+      max-width: 80%;
+    }
+
+  }
