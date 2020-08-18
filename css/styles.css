@@ -18,7 +18,10 @@ h1, h2, h3 {
 
 /* 1. Hero/Header section */
 
-
+.hero-height {
+    height: 100vh;
+    }
+    
 @media only screen and (max-width: 768px) {
     img.hero-image-gabe {
       max-width: 80%;
