@@ -41,6 +41,10 @@ h1, h2, h3 {
 }
   
 /* 5. Contact me section */
+
+#contact-height {
+ height: 70vh;   
+}
     
 /* 1. Footer */
 
