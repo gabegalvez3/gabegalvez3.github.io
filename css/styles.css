@@ -1,8 +1,10 @@
 /* Body styles and styles that apply to more than one section */
 
 body {
-  /* background: #e3e3e4; */
-  background: #e5e5e5;
+  /*  background: #e5e5e5;*/
+ 
+  /* background: #e5e5e5; */
+  background-image: radial-gradient(circle at 16% 47%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 11%,transparent 11%, transparent 56%,transparent 56%, transparent 100%),radial-gradient(circle at 86% 9%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 27%,transparent 27%, transparent 68%,transparent 68%, transparent 100%),radial-gradient(circle at 26% 50%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 32%,transparent 32%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 55% 18%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 44%,transparent 44%, transparent 49%,transparent 49%, transparent 100%),radial-gradient(circle at 42% 50%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 38%,transparent 38%, transparent 55%,transparent 55%, transparent 100%),linear-gradient(90deg, hsl(206,0%,96%),hsl(206,0%,96%));
 }
 
 /* Padding that creates space between sections */
@@ -19,7 +21,7 @@ body {
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
   /* font-family:'Audiowide', cursive; */
-  color: #1d3557;
+  color: #14213d;
 }
 
 h1 {
@@ -54,6 +56,10 @@ p {
 /* 2. About me section */
   
 /* 3. Portfolio/Work section */
+
+bd-placeholder-img {
+
+}
   
 /* 4. Tools I use section */
 
@@ -69,11 +75,10 @@ box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 /* 1. Footer */
 
 #footer-background {
-background: #1d3557;
+background: #14213d;
 }
 
 footer a {
-  color: #e63946;
+  color: #fca311;
 }
-
 
